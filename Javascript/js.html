@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- javascript is a cross platform object based scripting language for cline and server applications,it is used every where
+
+    interpreted at just in time compliation(Runtime ) rather than compile time
+
+    High level and multi paradigm -->
+    <h2>Java Script</h2>
+    <script>
+
+         // JS VARIABLES ----- Container that keeps either value or not
+
+         // JavaScript variables are named containers for storing data values that can be used and modified throughout a program. They are declared using the keywords var, let, or const, with let and const being the recommended choices for modern JavaScript. 
+
+
+         // using var keyword
+        var myName="ABES";
+         // The document in JavaScript is a global object that represents the entire web page (the HTML document) loaded in the   browser window.
+         document.write(myName); //output on browser
+         console.log(myName); //output on console
+
+         //JS Execution and Script in JS((Global) and Local[block])
+
+         function hello (){
+
+             var msg="Thanks to visit!";
+             console.log(msg); // local or block
+             console.log(myName);
+
+          }
+
+          hello();
+
+          // variable declaration using let and const
+
+          let myRollno=2503201000548;
+          console.log(myRollno);
+
+          myRollno=23143242; // no redeclare but can be reassigned
+          console.log(myRollno);
+
+          const myPhonenum=7438209154;
+          console.log("My Contact number " + myPhonenum);
+
+         // myPhonenum=901238224; //  no redeclare no reassign
+          console.log(myPhonenum);
+
+        //   var, let, and const are used to declare variables in JavaScript, with key differences in scope, hoisting, and reassignability. var is function-scoped and hoisted; let and const are block-scoped. const creates immutable references, while let allows reassignment. Using const by default, and let when needed, is recommended over var. 
+
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
